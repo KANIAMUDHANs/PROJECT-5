@@ -1,0 +1,182 @@
+body
+{
+    background-color: rgb(217, 217, 212);
+}
+.header
+{
+    /* background-color:rgb(31, 3, 31); */
+    background-image: url(../Images/post.png);
+    background-position: left;
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: rgba(135, 78, 188, 0.553);
+    width: 100%;
+    height:100%;
+    padding:3px;
+    border-radius: 55px 52px 55px 52px;
+    /* border: 5px solid rgb(9, 174, 78); */
+}
+.header ul
+{
+    display: flex;
+    list-style-type:none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:550px;
+    text-decoration: none;
+}
+.header ul li{
+    padding-left:4px;
+    text-decoration:none;
+}
+.flexcontainer
+{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content:space-evenly    ;
+    /* border: 5px solid black; */
+    margin:40px;
+    /* padding: 30px; */
+}
+.flexcontainer > .box1
+{
+    /* border:3px solid blue; */
+    width: 200px;
+    /* height: 400px;
+    padding:15px; */
+    margin: 15px;
+    text-align: center;
+}
+.flexcontainer > .box2
+{
+    /* border:3px solid rgb(6, 106, 90); */
+    width: 200px;
+    /* height: 400px; */
+    /* background-color:rgb(6, 106, 90); */
+    /* padding:15px; */
+    margin: 15px;
+    text-align: center;
+}
+.flexcontainer > .box3
+{
+    /* border:3px solid rgb(184, 153, 40); */
+    width: 200px;
+    /* height: 400px; */
+    /* background-color: rgb(195, 226, 43); */
+    /* padding:15px; */
+    margin: 15px;
+    text-align: center;
+}
+.flexcontainer > .box4
+{
+    /* border:3px solid rgb(242, 24, 242); */
+    width: 200px;   
+    /* height: 400px; */
+    /* background-color: rgb(226, 43, 186); */
+    /* padding:15px; */
+    margin: 15px;
+    text-align: center;
+}
+.flexcontainer > .box5
+{
+    /* border:3px solid rgb(242, 24, 242); */
+    width: 200px;   
+    /* height: 400px; */
+    /* background-color: rgb(253, 97, 6); */
+    /* padding:15px; */
+    margin: 15px;
+    text-align: center;
+}
+.flexcontainer > .box6
+{
+    /* border:3px solid rgb(242, 24, 242); */
+    width: 200px;   
+    /* height: 400px; */
+    /* background-color: rgb(137, 8, 230); */
+        /* padding:15px; */
+        margin: 15px;
+    text-align: center;
+}
+.flexcontainer > .box7
+{
+    /* border:3px solid rgb(242, 24, 242); */
+    width: 200px;   
+    /* height: 400px; */
+    /* background-color: rgb(137, 8, 230); */
+        /* padding:15px; */
+        margin: 15px;
+    text-align: center;
+}
+.flexcontainer > .box8
+{
+    /* border:3px solid rgb(242, 24, 242); */
+    width: 200px;   
+    /* height: 400px; */
+    /* background-color: rgb(137, 8, 230); */
+        /* padding:15px; */
+        margin: 15px;
+    text-align: center;
+}
+.flexcontainer > .box9
+{
+    /* border:3px solid rgb(242, 24, 242); */
+    width: 200px;   
+    /* height: 400px; */
+    /* background-color: rgb(137, 8, 230); */
+        /* padding:15px; */
+        margin: 15px;
+    text-align: center;
+}
+.flexcontainer > .box10
+{
+    /* border:3px solid rgb(242, 24, 242); */
+    width: 200px;   
+    /* height: 400px; */
+    /* background-color: rgb(137, 8, 230); */
+        /* padding:15px; */
+        margin: 15px;
+    text-align: center;
+}
+.flexcontainer > .box11
+{
+    /* border:3px solid rgb(242, 24, 242); */
+    width: 200px;   
+    /* height: 400px; */
+    /* background-color: rgb(137, 8, 230); */
+        /* padding:15px; */
+        margin: 15px;
+    text-align: center;
+}
+.flexcontainer > .box12
+{
+    /* border:3px solid rgb(242, 24, 242); */
+    width: 200px;   
+    /* height: 400px; */
+    /* background-color: rgb(137, 8, 230); */
+        /* padding:15px; */
+        margin: 15px;
+    text-align: center;
+}
+img:hover{
+    cursor: pointer;
+    transition-delay: 0.5s;
+    transform: translate(-1px,-13px);
+}
+.footer{
+    /* border: 5px solid black; */
+    margin-top: 80px;
+    background-image: url(../Images/post.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: rgb(166, 16, 177);
+    padding: 40px;
+}
+a:hover{
+    color: rgb(105, 87, 87);
+    text-decoration: none;
+}
+a:visited{
+    color: rgba(167, 15, 103, 0.496);
+    text-decoration: none;
+}
